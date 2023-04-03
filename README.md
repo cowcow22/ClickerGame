@@ -7,7 +7,7 @@ KELOMPOK 6:
 - Stevanus Firman Widyatmoko (00000069971)
 - Evan Yo (00000068870)
 
-LINK GitHub: https://github.com/cowcow22/UTS-PTI-LAB-
+LINK GitHub: https://github.com/cowcow22/UTS-PTI-LAB-.git
 
 ATURAN GAMEPLAY:
 
