@@ -1,3 +1,17 @@
+/* START ICON KODOK */
+
+.jangkrikClick img {
+  width: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+.jangkrikClick.clicked {
+  width: 80%;
+}
+
+/* END ICON KODOK */
+
+/* START ABOUT US */
 body {
   margin: 0;
   font-family: arial;
@@ -7,41 +21,6 @@ body {
 #bungkus {
   width: 100%;
   margin: 20px auto 0;
-}
-
-#logo img {
-  width: 80px;
-}
-
-#menu ul {
-  margin: 0;
-  padding: 0;
-}
-
-#menu ul li {
-  list-style: none;
-  padding: 0;
-  display: inline-block;
-  margin-left: 10px;
-}
-
-#logo {
-  margin-bottom: 20px;
-}
-
-#menu {
-  margin-top: 50px;
-}
-
-#menu ul li a {
-  text-decoration: none;
-  font-weight: bold;
-  padding: 30px 0;
-}
-
-#menu ul li a:hover,
-#menu ul li a.active {
-  border-bottom: 5px solid;
 }
 
 #top {
@@ -60,13 +39,13 @@ body {
   width: 100%;
 }
 
-.hewan {
+.foto {
   display: grid;
   grid-template-columns: repeat(auto fit, minmax(200px, 1fr));
   gap: 20px;
 }
 
-.hewan {
+.foto {
   position: relative;
   z-index: 1;
   display: grid;
@@ -75,16 +54,16 @@ body {
   height: 200px;
   color: #a18a96;
   text-align: center;
-  background: url(capybaranobg.png) center no-repeat;
+  background: url(filependukungUTSLAB/stevanus.jpg) center no-repeat;
   background-size: cover;
   padding: 10px;
   border-radius: 20px;
   overflow: hidden;
 }
 
-.hewan::before,
-.hewan::after {
-  content: '';
+.foto::before,
+.foto::after {
+  content: "";
   position: absolute;
   left: 0;
   z-index: -1;
@@ -94,45 +73,45 @@ body {
   transition: transform 0.5s 0.25s;
 }
 
-.hewan::before {
+.foto::before {
   top: 0;
   clip-path: polygon(0 0, 100% 0, 100% 45%, 0% 100%);
   transform: translateY(-100%);
 }
 
-.hewan::after {
+.foto::after {
   bottom: 0;
   clip-path: polygon(0 55%, 100% 0, 100% 100%, 0% 100%);
   transform: translateY(100%);
 }
 
-.hewan__body {
+.foto__body {
   opacity: 0;
   transition: opacity 0.25s;
 }
 
-.hewan__title {
+.foto__title {
   color: #6a515e;
   margin-bottom: 15px;
 }
 
-.hewan:hover::before,
-.hewan:hover::after {
+.foto:hover::before,
+.foto:hover::after {
   transform: translateY(0);
 }
 
-.hewan:hover .hewan__body {
+.foto:hover .foto__body {
   opacity: 1;
   transition-delay: 0.75s;
 }
 
-.hewan1 {
+.foto1 {
   display: grid;
   grid-template-columns: repeat(auto fit, minmax(200px, 1fr));
   gap: 20px;
 }
 
-.hewan1 {
+.foto1 {
   position: relative;
   z-index: 1;
   display: grid;
@@ -141,16 +120,16 @@ body {
   height: 200px;
   color: #a18a96;
   text-align: center;
-  background: url(anjingnobg.png) center no-repeat;
+  background: url(filependukungUTSLAB/felix.jpg) center no-repeat;
   background-size: cover;
   padding: 10px;
   border-radius: 20px;
   overflow: hidden;
 }
 
-.hewan1::before,
-.hewan1::after {
-  content: '';
+.foto1::before,
+.foto1::after {
+  content: "";
   position: absolute;
   left: 0;
   z-index: -1;
@@ -160,45 +139,45 @@ body {
   transition: transform 0.5s 0.25s;
 }
 
-.hewan1::before {
+.foto1::before {
   top: 0;
   clip-path: polygon(0 0, 100% 0, 100% 45%, 0% 100%);
   transform: translateY(-100%);
 }
 
-.hewan1::after {
+.foto1::after {
   bottom: 0;
   clip-path: polygon(0 55%, 100% 0, 100% 100%, 0% 100%);
   transform: translateY(100%);
 }
 
-.hewan1__body {
+.foto1__body {
   opacity: 0;
   transition: opacity 0.25s;
 }
 
-.hewan1__title {
+.foto1__title {
   color: #6a515e;
   margin-bottom: 15px;
 }
 
-.hewan1:hover::before,
-.hewan1:hover::after {
+.foto1:hover::before,
+.foto1:hover::after {
   transform: translateY(0);
 }
 
-.hewan1:hover .hewan1__body {
+.foto1:hover .foto1__body {
   opacity: 1;
   transition-delay: 0.75s;
 }
 
-.hewan2 {
+.foto2 {
   display: grid;
   grid-template-columns: repeat(auto fit, minmax(200px, 1fr));
   gap: 20px;
 }
 
-.hewan2 {
+.foto2 {
   position: relative;
   z-index: 1;
   display: grid;
@@ -207,16 +186,16 @@ body {
   height: 200px;
   color: #a18a96;
   text-align: center;
-  background: url(ayamnobg.png) center no-repeat;
+  background: url(filependukungUTSLAB/jacques.jpg) center no-repeat;
   background-size: cover;
   padding: 10px;
   border-radius: 20px;
   overflow: hidden;
 }
 
-.hewan2::before,
-.hewan2::after {
-  content: '';
+.foto2::before,
+.foto2::after {
+  content: "";
   position: absolute;
   left: 0;
   z-index: -1;
@@ -226,45 +205,45 @@ body {
   transition: transform 0.5s 0.25s;
 }
 
-.hewan2::before {
+.foto2::before {
   top: 0;
   clip-path: polygon(0 0, 100% 0, 100% 45%, 0% 100%);
   transform: translateY(-100%);
 }
 
-.hewan2::after {
+.foto2::after {
   bottom: 0;
   clip-path: polygon(0 55%, 100% 0, 100% 100%, 0% 100%);
   transform: translateY(100%);
 }
 
-.hewan2__body {
+.foto2__body {
   opacity: 0;
   transition: opacity 0.25s;
 }
 
-.hewan2__title {
+.foto2__title {
   color: #6a515e;
   margin-bottom: 15px;
 }
 
-.hewan2:hover::before,
-.hewan2:hover::after {
+.foto2:hover::before,
+.foto2:hover::after {
   transform: translateY(0);
 }
 
-.hewan2:hover .hewan2__body {
+.foto2:hover .foto2__body {
   opacity: 1;
   transition-delay: 0.75s;
 }
 
-.hewan3 {
+.foto3 {
   display: grid;
   grid-template-columns: repeat(auto fit, minmax(200px, 1fr));
   gap: 20px;
 }
 
-.hewan3 {
+.foto3 {
   position: relative;
   z-index: 1;
   display: grid;
@@ -273,16 +252,16 @@ body {
   height: 200px;
   color: #a18a96;
   text-align: center;
-  background: url(bunglonnobg.png) center no-repeat;
+  background: url(filependukungUTSLAB/evanyo.JPG) center no-repeat;
   background-size: cover;
   padding: 10px;
   border-radius: 20px;
   overflow: hidden;
 }
 
-.hewan3::before,
-.hewan3::after {
-  content: '';
+.foto3::before,
+.foto3::after {
+  content: "";
   position: absolute;
   left: 0;
   z-index: -1;
@@ -292,34 +271,34 @@ body {
   transition: transform 0.5s 0.25s;
 }
 
-.hewan3::before {
+.foto3::before {
   top: 0;
   clip-path: polygon(0 0, 100% 0, 100% 45%, 0% 100%);
   transform: translateY(-100%);
 }
 
-.hewan3::after {
+.foto3::after {
   bottom: 0;
   clip-path: polygon(0 55%, 100% 0, 100% 100%, 0% 100%);
   transform: translateY(100%);
 }
 
-.hewan3__body {
+.foto3__body {
   opacity: 0;
   transition: opacity 0.25s;
 }
 
-.hewan3__title {
+.foto3__title {
   color: #6a515e;
   margin-bottom: 15px;
 }
 
-.hewan3:hover::before,
-.hewan3:hover::after {
+.foto3:hover::before,
+.foto3:hover::after {
   transform: translateY(0);
 }
 
-.hewan3:hover .hewan3__body {
+.foto3:hover .foto3__body {
   opacity: 1;
   transition-delay: 0.75s;
 }
@@ -333,8 +312,8 @@ body {
 
 .icon {
   display: inline-flex;
-  width: 60px;
-  height: 60px;
+  width: 30px;
+  height: 30px;
   text-decoration: none;
   font-size: 26px;
   color: #fff;
@@ -357,18 +336,39 @@ body {
 }
 
 .icon--instagram:hover {
-  background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+  background-image: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
   outline-color: #a02d76;
 }
 
-.icon--twitter:hover {
-  background-color: #1da1f2;
-  outline-color: #1da1f2;
+.icon--facebook:hover {
+  background-image: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  outline-color: #09639b;
 }
 
-.icon--linkedin:hover {
-  background-color: #0077b5;
-  outline-color: #0077b5;
+.icon--youtube:hover {
+  background-image: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  outline-color: #d40d0d;
 }
 
 .icon--github:hover {
@@ -393,3 +393,4 @@ body {
     transform: rotate(-15deg);
   }
 }
+/* END ABOUT US */
