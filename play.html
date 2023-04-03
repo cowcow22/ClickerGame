@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jangkrik BOS</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styless.css" />
+  </head>
+  <body style="background-color: rgb(255, 226, 182)">
+    <!-- START NAV -->
+    <nav class="nav navbar-expand-lg bg-body-secondary p-1">
+      <a class="nav-link disabled">Main game</a>
+      <a class="nav-link active" aria-current="page" href="page_aboutus.html"
+        >About us</a
+      >
+    </nav>
+    <!-- END NAV -->
+
+    <!-- START BAGIAN ATAS CLICKER -->
+    <div class="container-fluid overflow-hidden">
+      <div class="row">
+        <div class="col">
+          <h1 style="text-align: center">Idle Clicker Game (JANGKRIK BOS)</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col" id="jumlahUang"></div>
+
+        <div class="col">
+          <div id="autoClick"></div>
+          <button
+            type="button"
+            class="btn btn-success"
+            onclick="beliAutoClicker()"
+          >
+            Beli Auto-Clicker
+          </button>
+        </div>
+        <div class="col">
+          <div id="cabang"></div>
+          <button type="button" class="btn btn-success" onclick="beliCabang()">
+            Beli Multiplier
+          </button>
+        </div>
+      </div>
+      <br />
+      <div class="row p-1">
+        <div class="col">
+          <h2>Upgrade Dagang</h2>
+          <div class="col p-1" id="jangkrikBiasa">
+            <button
+              id="buttonJangkrikBiasa"
+              type="button"
+              class="btn btn-primary"
+              onclick="beliJangkrikBiasa()"
+              style="
+                --bs-btn-padding-y: 0.25rem;
+                --bs-btn-padding-x: 0.5rem;
+                --bs-btn-font-size: 0.75rem;
+              "
+            >
+              Jual Jangkrik Biasa
+            </button>
+            10000
+          </div>
+          <div class="col p-1" id="jangkrikPremium">
+            <button
+              id="buttonJangkrikPremium"
+              type="button"
+              class="btn btn-primary"
+              onclick="beliJangkrikPremium()"
+              style="
+                --bs-btn-padding-y: 0.25rem;
+                --bs-btn-padding-x: 0.5rem;
+                --bs-btn-font-size: 0.75rem;
+              "
+            >
+              Jual Jangkrik Premium
+            </button>
+            50000
+          </div>
+          <div class="col p-1" id="jangkrikRaja">
+            <button
+              id="buttonJangkrikRaja"
+              type="button"
+              class="btn btn-primary"
+              onclick="beliJangkrikRaja()"
+              style="
+                --bs-btn-padding-y: 0.25rem;
+                --bs-btn-padding-x: 0.5rem;
+                --bs-btn-font-size: 0.75rem;
+              "
+            >
+              Jual Raja Jangkrik
+            </button>
+            100000
+          </div>
+        </div>
+        <div class="col">
+          <h2>CLICK JANGKRIK</h2>
+          <div onclick="nambahPoint()" id="pencetKodok" class="jangkrikClick">
+            <img
+              src="filependukungUTSLAB/1.png"
+              alt="OBJEK KLIK"
+              style="width: 50%"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END BAGIAN ATAS CLICKER -->
+
+    <!-- START AUDIO -->
+    <audio
+      id="audio"
+      src="filependukungUTSLAB/downloadlagu321.mx - Backsound Warkop Dki No Copyright Musik.mp3"
+      autoplay
+      loop
+    ></audio>
+    <!-- END AUDIO -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>

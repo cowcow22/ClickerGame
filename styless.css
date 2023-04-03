@@ -1,0 +1,396 @@
+/* START ICON KODOK */
+
+.jangkrikClick img {
+  width: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+.jangkrikClick.clicked {
+  width: 80%;
+}
+
+/* END ICON KODOK */
+
+/* START ABOUT US */
+body {
+  margin: 0;
+  font-family: arial;
+  background-color: rgb(255, 226, 182);
+}
+
+#bungkus {
+  width: 100%;
+  margin: 20px auto 0;
+}
+
+#top {
+  display: flex;
+  justify-content: space-between;
+}
+
+#banner {
+  height: 400px;
+  overflow: hidden;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+#banner img {
+  width: 100%;
+}
+
+.foto {
+  display: grid;
+  grid-template-columns: repeat(auto fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.foto {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  place-content: center;
+  width: 200px;
+  height: 200px;
+  color: #a18a96;
+  text-align: center;
+  background: url(filependukungUTSLAB/stevanus.jpg) center no-repeat;
+  background-size: cover;
+  padding: 10px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.foto::before,
+.foto::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: calc(60% + 35px);
+  background-color: #fff;
+  transition: transform 0.5s 0.25s;
+}
+
+.foto::before {
+  top: 0;
+  clip-path: polygon(0 0, 100% 0, 100% 45%, 0% 100%);
+  transform: translateY(-100%);
+}
+
+.foto::after {
+  bottom: 0;
+  clip-path: polygon(0 55%, 100% 0, 100% 100%, 0% 100%);
+  transform: translateY(100%);
+}
+
+.foto__body {
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.foto__title {
+  color: #6a515e;
+  margin-bottom: 15px;
+}
+
+.foto:hover::before,
+.foto:hover::after {
+  transform: translateY(0);
+}
+
+.foto:hover .foto__body {
+  opacity: 1;
+  transition-delay: 0.75s;
+}
+
+.foto1 {
+  display: grid;
+  grid-template-columns: repeat(auto fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.foto1 {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  place-content: center;
+  width: 200px;
+  height: 200px;
+  color: #a18a96;
+  text-align: center;
+  background: url(filependukungUTSLAB/felix.jpg) center no-repeat;
+  background-size: cover;
+  padding: 10px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.foto1::before,
+.foto1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: calc(60% + 35px);
+  background-color: #fff;
+  transition: transform 0.5s 0.25s;
+}
+
+.foto1::before {
+  top: 0;
+  clip-path: polygon(0 0, 100% 0, 100% 45%, 0% 100%);
+  transform: translateY(-100%);
+}
+
+.foto1::after {
+  bottom: 0;
+  clip-path: polygon(0 55%, 100% 0, 100% 100%, 0% 100%);
+  transform: translateY(100%);
+}
+
+.foto1__body {
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.foto1__title {
+  color: #6a515e;
+  margin-bottom: 15px;
+}
+
+.foto1:hover::before,
+.foto1:hover::after {
+  transform: translateY(0);
+}
+
+.foto1:hover .foto1__body {
+  opacity: 1;
+  transition-delay: 0.75s;
+}
+
+.foto2 {
+  display: grid;
+  grid-template-columns: repeat(auto fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.foto2 {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  place-content: center;
+  width: 200px;
+  height: 200px;
+  color: #a18a96;
+  text-align: center;
+  background: url(filependukungUTSLAB/jacques.jpg) center no-repeat;
+  background-size: cover;
+  padding: 10px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.foto2::before,
+.foto2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: calc(60% + 35px);
+  background-color: #fff;
+  transition: transform 0.5s 0.25s;
+}
+
+.foto2::before {
+  top: 0;
+  clip-path: polygon(0 0, 100% 0, 100% 45%, 0% 100%);
+  transform: translateY(-100%);
+}
+
+.foto2::after {
+  bottom: 0;
+  clip-path: polygon(0 55%, 100% 0, 100% 100%, 0% 100%);
+  transform: translateY(100%);
+}
+
+.foto2__body {
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.foto2__title {
+  color: #6a515e;
+  margin-bottom: 15px;
+}
+
+.foto2:hover::before,
+.foto2:hover::after {
+  transform: translateY(0);
+}
+
+.foto2:hover .foto2__body {
+  opacity: 1;
+  transition-delay: 0.75s;
+}
+
+.foto3 {
+  display: grid;
+  grid-template-columns: repeat(auto fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.foto3 {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  place-content: center;
+  width: 200px;
+  height: 200px;
+  color: #a18a96;
+  text-align: center;
+  background: url(filependukungUTSLAB/evanyo.JPG) center no-repeat;
+  background-size: cover;
+  padding: 10px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.foto3::before,
+.foto3::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: calc(60% + 35px);
+  background-color: #fff;
+  transition: transform 0.5s 0.25s;
+}
+
+.foto3::before {
+  top: 0;
+  clip-path: polygon(0 0, 100% 0, 100% 45%, 0% 100%);
+  transform: translateY(-100%);
+}
+
+.foto3::after {
+  bottom: 0;
+  clip-path: polygon(0 55%, 100% 0, 100% 100%, 0% 100%);
+  transform: translateY(100%);
+}
+
+.foto3__body {
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.foto3__title {
+  color: #6a515e;
+  margin-bottom: 15px;
+}
+
+.foto3:hover::before,
+.foto3:hover::after {
+  transform: translateY(0);
+}
+
+.foto3:hover .foto3__body {
+  opacity: 1;
+  transition-delay: 0.75s;
+}
+
+.icons {
+  display: flex;
+  column-gap: 25px;
+  justify-content: center;
+  padding-top: 2%;
+}
+
+.icon {
+  display: inline-flex;
+  width: 30px;
+  height: 30px;
+  text-decoration: none;
+  font-size: 26px;
+  color: #fff;
+  border-radius: 50%;
+  outline: 2px solid #fff;
+  transition-property: outline-offset, outline-color, background-color;
+  transition-duration: 0.25s;
+}
+
+.icon:hover {
+  outline-offset: 4px;
+}
+
+.icon i {
+  margin: auto;
+}
+
+.icon:hover i {
+  animation: shake 0.25s;
+}
+
+.icon--instagram:hover {
+  background-image: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  outline-color: #a02d76;
+}
+
+.icon--facebook:hover {
+  background-image: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  outline-color: #09639b;
+}
+
+.icon--youtube:hover {
+  background-image: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  outline-color: #d40d0d;
+}
+
+.icon--github:hover {
+  background-color: #2ea44f;
+  outline-color: #2ea44f;
+}
+
+@keyframes shake {
+  10% {
+    transform: rotate(15deg);
+  }
+
+  20% {
+    transform: rotate(-15deg);
+  }
+
+  30% {
+    transform: rotate(15deg);
+  }
+
+  40% {
+    transform: rotate(-15deg);
+  }
+}
+/* END ABOUT US */
